@@ -14,9 +14,9 @@ app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'Anupam'
-app.config['MYSQL_PASSWORD'] = '8955@Mysql'
-app.config['MYSQL_DB'] = 'testlogin'
+app.config['MYSQL_USER'] = '[user]'
+app.config['MYSQL_PASSWORD'] = '[password]'
+app.config['MYSQL_DB'] = '[database]'
 
 mysql = MySQL(app)
 
